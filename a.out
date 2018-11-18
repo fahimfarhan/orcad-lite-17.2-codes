@@ -1,0 +1,101 @@
+
+**** 11/18/18 21:42:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ CLANPER CKT 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+VSIN a 0 SIN(0,10,1K, 0,0)
+C1 A B 1
+R1 B 0 1MEGA
+VDC C 0 4
+D1 C B DBREAK 
+.MODEL DBREAK D
+.PROBE
+.TRAN 1U 4M
+.END
+
+**** 11/18/18 21:42:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ CLANPER CKT 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DBREAK          
+          IS   10.000000E-15 
+
+
+**** 11/18/18 21:42:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ CLANPER CKT 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    a)    0.0000  (    B)    3.4912  (    C)    4.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    VSIN         0.000E+00
+    VDC         -3.491E-06
+
+    TOTAL POWER DISSIPATION   1.40E-05  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/18/18 21:42:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ CLANPER CKT 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+
+**** 11/18/18 21:42:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+  
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+
+

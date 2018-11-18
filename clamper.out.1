@@ -1,0 +1,104 @@
+
+**** 11/18/18 21:22:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Clamper Circuit
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+Vsin a 0 sin(0,10,1k,0,0)
+C1 A B 1
+R1 B 0 1mega
+Vdc C 0 4
+D1 C B Dbreak
+.model Dbreak D
+.probe
+.tran 1u 4m 
+.end
+
+**** 11/18/18 21:22:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Clamper Circuit
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+
+
+**** 11/18/18 21:22:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Clamper Circuit
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    a)    0.0000  (    B)    3.4912  (    C)    4.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vsin         0.000E+00
+    Vdc         -3.491E-06
+
+    TOTAL POWER DISSIPATION   1.40E-05  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/18/18 21:22:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Clamper Circuit
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .30
+
+**** 11/18/18 21:22:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+  
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+
+
+
+

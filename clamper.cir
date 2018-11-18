@@ -1,0 +1,16 @@
+Clamper Circuit
+
+Vsin a 0 sin(0,10,1k,0,0)
+C1 A B 1
+R1 B 0 1mega
+Vdc C 0 4
+D1 C B Dbreak
+.model Dbreak D
+.probe
+.tran 1u 4m 
+.end
+
+
+
+
+

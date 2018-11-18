@@ -1,0 +1,126 @@
+
+**** 11/18/18 21:28:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ MOSFET I-V CHARACTERISTICS
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+m1 1 2 0 0 ntype
+.model ntype NMOS(VTO=1 kp=30u)
+vgs 2 0 5
+vds 1 0 5
+.probe
+.print dc i(vds)
+* .dc vds 0 5 0.5 vgs 0 5 1 
+.end
+
+**** 11/18/18 21:28:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ MOSFET I-V CHARACTERISTICS
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               ntype           
+               NMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    1            
+          KP   30.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 11/18/18 21:28:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ MOSFET I-V CHARACTERISTICS
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    5.0000  (    2)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    vgs          0.000E+00
+    vds         -2.400E-04
+
+    TOTAL POWER DISSIPATION   1.20E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/18/18 21:28:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ MOSFET I-V CHARACTERISTICS
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .16
+
+**** 11/18/18 21:28:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+  
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+

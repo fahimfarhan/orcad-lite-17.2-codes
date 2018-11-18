@@ -1,0 +1,24 @@
+
+V1 1 0 DC 10V
+V2 6 0 DC 5V 
+V3 5 0 DV -5V
+s
+D1 1 2 D1
+R1 2 3 8.2K
+R2 3 4 12K
+R3 4 5 10K
+D2 6 3 D1
+D3 0 4 D1
+
+.MODEL D1 D RS=1 IS=1E-14 VJ=0.6 
+.OP
+.PROBE
+.END
+
+
+
+
+
+
+
+
